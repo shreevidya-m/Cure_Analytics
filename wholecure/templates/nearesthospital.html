@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form Example</title>
+  <link href="{{ url_for('static', filename='assets/css/nearesthospital.css') }}" rel="stylesheet" media="screen" type="text/css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="regform">
+  <form action="/submit" method="post">
+    <div class="form-group">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+    </div>
+
+    <div class="form-group">
+      <label for="mobile">Mobile Number:</label>
+      <input type="tel" id="mobile" name="mobile",pattern="[0-9]{10}" required><br><br>
+    </div>
+
+    <div class="form-group">
+      <label for="pincode">Pincode (Chennai):</label>
+      <input type="text" id="pincode" name="pincode" pattern="[1-9][0-9]{5}"></textarea>
+    </div>
+
+    <div class="form-group">
+      <label for="place">Location:</label>
+        <input type="text" id="place" name="place" required><br><br>
+    </div>
+    <button type="submit">Submit</button>
+  </form>
+</div>
+</body>
+</html>

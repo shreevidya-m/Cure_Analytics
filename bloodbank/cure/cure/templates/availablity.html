@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{{ url_for('static', filename='availablity.css') }}">
+  <title>Blood Bank - Blood Availability Tracker</title>
+</head>
+<body>
+  <header>
+    <h1>Blood Bank</h1>
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/availablity">Blood Availability Tracker</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h2>Blood Availability Tracker</h2>
+    <form action="/availablity" method="POST">
+      <label for="blood_type">Blood Type:</label>
+      <select id="blood_type" name="blood_type" required>
+        <option value="A+">A+</option>
+        <option value="A-">A-</option>
+        <option value="B+">B+</option>
+        <option value="B-">B-</option>
+        <option value="O+">O+</option>
+        <option value="O-">O-</option>
+        <option value="AB+">AB+</option>
+        <option value="AB-">AB-</option>
+      </select>
+
+      <label for="quantity">Quantity:</label>
+      <input type="number" id="quantity" name="quantity" required>
+
+      <button type="submit">Submit Blood Availability</button>
+    </form>
+  </div>
+
+  <footer>
+    &copy; 2023 Blood Bank. All rights reserved.
+  </footer>
+</body>
+</html>

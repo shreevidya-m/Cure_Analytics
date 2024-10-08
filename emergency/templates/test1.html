@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Navigation Bar</title>
+    <link href="{{ url_for('static', filename='assets/css/test.css') }}" rel="stylesheet" media="screen" type="text/css">
+</head>
+<body>
+  <div class="rectangle"></div>
+      <img src="{{ url_for('static', filename='assets/css/logo.png') }}" alt="Image description" class="image">
+      <div class="nav" >
+      <li ><a class="home" href="{{url_for('bank')}}" onmouseover="" style="cursor: pointer;">HOME</a></li>
+      <li class="appointment"><a href="{{url_for('appointment')}}" onmouseover="" style="cursor: pointer;">APPOINTMENT</a></li>
+      <li class="bank"><a href="{{url_for('bank')}}"  onmouseover="" style="cursor: pointer;">BLOOD BANK</a></li>
+      <li class="about"><a href="{{url_for('about')}}"  onmouseover="" style="cursor: pointer;">ABOUT US</a></li>
+      </div>      
+  </div>
+  <div>
+    <button class="sidebar">></button>
+  </div>  
+</body>
+</html>

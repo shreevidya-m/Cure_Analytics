@@ -1,0 +1,83 @@
+body {
+    background-image: url("/static/assets/css/emergency.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .caption-container {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: -10px; /* Increase the margin to create more space between caption containers */
+    margin-left: -750px;
+  }
+  .my-button {
+    background-color: #f7f7fb; /* Set the background color */
+    border: 3px solid #2a2dae; /* Remove the border */
+    color: rgb(246, 28, 28); /* Set the text color */
+    padding: 10px 20px; /* Add some padding */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make it an inline element */
+    font-size: 24px; /* Set the font size */
+    font-weight: 600; /* Set the font weight to bold */
+    margin: 130px 100px; /* Add margin */
+    cursor: pointer; /* Add cursor style */
+    border-radius: 10px; /* Add border radius */
+    font-family: "times new roman", serif; /* Change the font family */
+
+    box-shadow: 0 8px 16px 0 rgb(44, 244, 237), 0 6px 20px 0 rgb(19, 143, 74);
+   
+  }
+  .my-button:hover {
+    /* Add hover effect */
+    box-shadow: 0 12px 20px 0 rgba(223, 48, 48, 0.919), 0 17px 50px 0 rgba(219, 67, 227, 0.886);
+  }
+  
+  .caption {
+    font-size: 20px;
+    color: #fff9f9;
+    margin: -108px 130px;
+    font-family: Georgia, serif; /* Change the font family to Arial or any other preferred font */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Add a text-shadow to create a 3D effect */
+  }
+
+
+/*menu option*/
+  .menu-container {
+    position: absolute;
+    top: 20px;
+    right: 1300px;
+  }
+  
+  .menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu li {
+    display: inline-block;
+    margin-left: 10px;
+  }
+  
+  .menu li a {
+    text-decoration: none;
+    color: #faf5f5;
+    padding: 5px 10px;
+    border-radius: 4px;
+    background-color: #e23024;
+    animation: glow 2s infinite alternate; /* Add animation for glowing effect */
+  }
+  
+  .menu li a:hover {
+    background-color: #d22323;
+  }
+
+  @keyframes glow {
+    from {
+      box-shadow: 0 0 5px rgba(44, 244, 237); /* Initial shadow color */
+      
+    }
+    to {
+      box-shadow: 0 0 20px rgb(227, 248, 45); /* Final shadow color */
+    }
+  }

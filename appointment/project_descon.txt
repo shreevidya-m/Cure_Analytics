@@ -1,0 +1,13 @@
+button for booking
+what doctor 
+time and date
+submit
+stored in database
+for doctors
+only available timings
+button for finishing patients
+
+attendance for doctors
+just like a doctor attendance button with their name and stuff
+active for 10 or 12 hours
+and remove the attendance automatically 

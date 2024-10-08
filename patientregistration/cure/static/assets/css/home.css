@@ -1,0 +1,61 @@
+body {
+  background-image: url("/static/assets/css/webb.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+ul {
+  list-style-type: none;
+  padding: 0 100px;
+  overflow: hidden;
+  background-image: url("/static/assets/css/hbar.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top:45px;
+  
+}
+
+li {
+  float: right;
+
+  
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 30px 16px ;
+  text-decoration: none;
+  margin-right:100px;
+}
+
+li a:hover {
+  background-color:#1468CB;
+}
+
+.inline
+ { display: inline; }
+
+
+.cure{
+  color:#E23024;
+  left:20px;
+  font-size: larger;
+  font-family: 'Alice', sans-serif;
+  font-weight: bold;
+
+}
+
+.analytics
+{
+  color:#1468CB;
+  left:80px;
+  font-size:xx-large;
+  font-family: 'Alice', sans-serif;
+  margin-left:20px;
+  font-weight: bold;
+  
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{{ url_for('static', filename='donor_search.css') }}">
+  <title>Blood Bank - Donor Search</title>
+</head>
+<body>
+  <header>
+    <h1>Blood Bank</h1>
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/donors">Donors</a></li>
+        <li><a href="/bloodtypes">Blood Types</a></li>
+        <li><a href="/donor_search">Donor Search</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h2>Donor Search</h2>
+    
+    <form action="/donorsearch" method="POST">
+      <label for="blood_type">Blood Type:</label>
+      <select id="blood_type" name="blood_type" required>
+        <option value="A+">A+</option>
+        <option value="A-">A-</option>
+        <option value="B+">B+</option>
+        <option value="B-">B-</option>
+        <option value="O+">O+</option>
+        <option value="O-">O-</option>
+        <option value="AB+">AB+</option>
+        <option value="AB-">AB-</option>
+      </select>
+      
+      <button type="submit">Search</button>
+    </form>
+    
+    <div id="search_results">
+      <!-- Search results will be displayed here -->
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2023 Blood Bank. All rights reserved.
+  </footer>
+</body>
+</html>

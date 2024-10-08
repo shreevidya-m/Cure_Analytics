@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Emergency page</title>
+    <link href="{{ url_for('static', filename='assets/css/emergency.css') }}" rel="stylesheet" media="screen" type="text/css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="caption-container">
+    <a href="{{url_for('nearesthospital')}}" class="my-button">Nearest Hospital</a>
+    <p class="caption">"Find Your Nearest Hospital: Quick and Easy Access to Medical Care"</p>
+    </div>
+    
+    <div class="caption-container">
+    <a href="{{url_for('ambulance')}}" class="my-button">Ambulance Service</a>
+    <p class="caption">"Emergency Ambulance Service: Swift Response for Critical Situations"</p>
+  </div>
+  <div class="caption-container">
+    <a href="{{url_for('doorstepdoctor')}}" class="my-button">Doorstep Doctor</a>
+    <p class="caption">"At-Home Medical Care: Expert Doctors at Your Doorstep"</p>
+  </div>
+  <div class="menu-container">
+    <ul class="menu">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+    </ul>
+  </div>
+</body>
+</html>

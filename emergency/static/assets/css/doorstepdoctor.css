@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('doorstep.png');
+  background-size: cover;
+  background-position: center;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-color: floralwhite;
+}
+
+.form-container {
+  width: 400px;
+  margin: 125px auto;
+  border: 1px solid #ccc; /* Add an outline to the form */
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #fff; /* Set the background color of the form */
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: inline-block;
+  width: 100px;
+  font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="number"] {
+  width: 250px;
+  padding: 5px;
+}
+
+.form-group select {
+  width: 265px;
+  padding: 5px;
+}
+
+.submit-button {
+  display: block;
+  width: 100px;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #45a049;
+}

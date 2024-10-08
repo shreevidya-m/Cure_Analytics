@@ -1,0 +1,137 @@
+body {
+    background-image: url("/static/assets/css/webb.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+/*horizontal bar*/
+.rectangle {
+    width: 1535px;
+    height: 50px;
+    background-image: url("/static/assets/css/hbar2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top:40px;
+    margin-left:-8px;
+  }
+
+
+
+  .image{
+    width: 200px; /* Adjust the width to your desired size */
+    height: auto; /* Maintain the aspect ratio of the image */
+    margin-top: -120px; 
+    margin-left:75px;
+  }
+ 
+.home:hover{
+    color:rgb(155, 224, 235);
+
+}
+
+.appointment:hover{
+    color:rgb(155, 224, 235);
+} 
+
+.bank:hover{
+    color:rgb(155, 224, 235);
+}
+.about:hover{
+    color:rgb(155, 224, 235);
+}
+
+.home{
+    text-decoration: none;
+    list-style: none;
+    margin-left:300px;
+    position: relative;
+    top: -117px;
+    color:white;
+}
+
+.appointment{
+    text-decoration: none;
+    list-style: none;
+    margin-left:390px;
+    position: relative;
+    top: -135px;
+    color:white;
+}
+
+.bank{
+    text-decoration: none;
+    list-style: none;
+    margin-left:540px;
+    position: relative;
+    top: -153px;
+    color:white;
+}
+
+.about{
+    text-decoration: none;
+    list-style: none;
+    margin-left:680px;
+    position: relative;
+    top: -172px;
+    color:white;
+}
+/*horizontal bar*/
+
+/*drop down side bar*/
+
+
+.hover-button{
+    width:40px;
+    height:40px;
+    position:relative;
+    top:-156px;
+    background-color: #E23024;
+    font-size: larger;
+    font-weight: bold;
+    left:-7px;
+    color:white;
+    border: none;;
+
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+   
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    background-color: #1468CB;
+    width:270px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    top:-115px;
+    left:-8px;
+}
+
+.dropdown-content a {
+    color:white;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+    position: relative;
+    top:-0px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.dropdown-content a:hover {
+    background-color: #4f95e4;
+
+}
+/*drop down side bar*/
+
+  
+  

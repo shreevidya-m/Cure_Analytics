@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{{ url_for('static', filename='schedule.css') }}">
+  <title>Blood Bank - Appointment Scheduling</title>
+</head>
+<body>
+  <header>
+    <h1>Blood Bank</h1>
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/donors">Donors</a></li>
+        <li><a href="/bloodtypes">Blood Types</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h2>Appointment Scheduling</h2>
+    
+    <form action="/schedule" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="appointment_type">Appointment Type:</label>
+      <select id="appointment_type" name="appointment_type" required>
+        <option value="Blood Donation">Blood Donation</option>
+        <option value="Blood Test">Blood Test</option>
+      </select>
+      
+      <label for="date">Date:</label>
+      <input type="date" id="date" name="date" required>
+      
+      <label for="time">Time:</label>
+      <input type="time" id="time" name="time" required>
+      
+      <button type="submit">Schedule</button>
+    </form>
+  </div>
+
+  <footer>
+    &copy; 2023 Blood Bank. All rights reserved.
+  </footer>
+</body>
+</html>

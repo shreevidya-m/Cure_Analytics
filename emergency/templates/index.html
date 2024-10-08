@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Navigation Bar</title>
+    <link href="{{ url_for('static', filename='assets/css/test.css') }}" rel="stylesheet" media="screen" type="text/css">
+</head>
+<body>
+  <div class="rectangle"></div>
+      <img src="{{ url_for('static', filename='assets/css/logo.png') }}" alt="Image description" class="image">
+      
+      <li ><a class="home" href="{{url_for('bank')}}" onmouseover="" style="cursor: pointer;">HOME</a></li>
+      <li ><a class="appointment" href="{{url_for('appointment')}}" onmouseover="" style="cursor: pointer;">APPOINTMENT</a></li>
+      <li ><a class="bank" href="{{url_for('bank')}}"  onmouseover="" style="cursor: pointer;">BLOOD BANK</a></li>
+      <li><a  class="about" href="{{url_for('about')}}"  onmouseover="" style="cursor: pointer;">ABOUT US</a></li>
+      
+        
+          
+  </div>
+  <div class="dropdown">
+    <button class="hover-button">></button>
+    <div class="dropdown-content">
+        <a href="{{url_for('about')}}">APPOINTMENT MANAGEMENT</a>
+        <a href="{{url_for('about')}}">CONSULTATION</a>
+        <a href="{{url_for('about')}}">PHARMACY</a>
+        <a href="{{url_for('about')}}">BILLING-INSURANCE</a>
+        <a href="{{url_for('about')}}">ATTENDANCE MONITOR</a>
+        <a href="{{url_for('about')}}">BLOOD BANK</a>
+        <a href="{{url_for('about')}}">MEDICAL CAMP</a>
+        <a href="{{url_for('emergency')}}">EMERGENCY SERVICES</a>
+    </div>
+</div>
+    
+</body>
+</html>
