@@ -3,7 +3,7 @@
 Cure_Analytics is a data-driven platform that delivers insights and analytical solutions for healthcare data. The project aims to improve decision-making and patient outcomes by providing an intuitive interface for exploring and visualizing healthcare trends.
 
 ## 📜 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 📜 Project Overview
 **Objective**: Cure_Analytics leverages data analytics to streamline healthcare data processing and offers powerful visualizations to track key health metrics. The platform is designed to cater to healthcare professionals, analysts, and policymakers.
