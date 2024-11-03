@@ -20,7 +20,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📐 Technology Stack
 
 - **Backend**: Python
-- **Frontend**: HTML, CSS, JavaScript (specific framework if used)
+- **Frontend**: HTML, CSS, JavaScript
 - **Data Visualization**: Power BI (if integrated), Plotly, or Matplotlib
 - **Environment**: Windows/Linux compatible
 
